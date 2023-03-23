@@ -1,0 +1,208 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.one-product-page
+{
+    display: flex;
+    padding: 0 40px 0 40px;
+}
+.clothes-img
+{
+    width: 800px;
+}
+.clothes-img img
+{
+    width:100%;
+}
+.one-product-page-right
+{
+    position: relative;
+    width: 800px;
+    padding-left: 20px;
+}
+.one-product-page-right a
+{
+    text-decoration: none;
+    color: gray;
+    padding-bottom: 20px;
+}
+.clothes-name
+{
+    width: 100%;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.word
+{
+    width: 80%;
+}
+.favourite
+{
+    width: 20%;
+    height: 10px;
+    display: flex;
+    justify-content:end;
+    font-size: 30px;
+}
+.favourite .heart
+{
+    color: red;
+}
+.favourite .heart:hover
+{
+    color:black;
+}
+h3
+{
+    padding-bottom: 40px;
+}
+.size-select
+{
+    display: flex;
+    padding-bottom: 20px;
+}
+.size-box
+{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.size-box-active
+{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all ease .5s;
+}
+.size-box:hover
+{
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.color-box
+{
+    width: 150px;
+    height: 50px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.add-to-cart
+{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+.quantity
+{
+    width: 20%;
+}
+.quantity input
+{
+    width: 80%;
+    height: 40px;
+}
+.add-to-cart-button
+{
+    width: 90%;
+
+}
+.add-to-cart-button input
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all ease .5s;
+
+}
+.add-to-cart-button input:hover
+{
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.text
+{
+    font-size: 15px;
+}
+.Description
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border: 1px gray solid;
+}
+.Description-text
+{
+    padding: 15px;
+    position: relative;
+    border: 0.5px gray solid;
+    width:60%;
+    color: gray;
+}
+.Description-text:before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width:100px;
+    height:2px;
+    background-color:white;
+    
+    }
+@media only screen and (max-width: 1000px) 
+{
+.one-product-page
+{
+    display: block;
+    padding-bottom: 20px;
+}
+}
+.clothes-img
+{
+    width: 100%;
+}
+.one-product-page-right
+{
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+}
